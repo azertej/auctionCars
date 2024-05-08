@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+ margin: 0;
+ padding: 0  ;
+ font-family: "Montserrat", sans-serif;
+}
+
+Input,TextArea,select{
+    min-height: 45px;
+    border: 1px solid black !important ;
+    border-radius: 40px  ; 
+    width: 100%;
+    
+}
+Input:focus{
+    border: 1px solid rgb(56, 51, 51) !important ;
+}
+
+Button{
+    height: 45px !important;
+    width: 200px !important;
+}
+ 
+i{
+    font-size: 20px !important ;
+}
+
+.max-width{
+    max-width: max-content !important;
+}
