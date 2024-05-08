@@ -75,7 +75,7 @@ const ProductInfo = () => {
             <h1 className='text-blue-900'>Product Details</h1>
             <div className='flex justify-between'>
               <span>Price</span>
-              <span>$ {car.price}</span>
+              <span>{car.price} DT</span>
             </div>
             <div className='flex justify-between'>
               <span>Model</span>
@@ -123,7 +123,7 @@ const ProductInfo = () => {
                 </div>
                 <div className='flex justify-between text-gray-700'>
                   <span>Price :</span>
-                  <span>$ {bid.bidAmount}</span>
+                  <span>{bid.bidAmount} DT</span>
                 </div>
                 <div className='flex justify-between text-gray-700'>
                   <span>Placed On :</span>

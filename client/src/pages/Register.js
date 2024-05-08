@@ -39,8 +39,8 @@ const Register = () => {
     }
   }
   return (
-    <div className='bg-[#bfdbfe] w-screen h-screen  flex justify-center items-center'  >
-      <div className=' bg-[#e0f2fe] w-[350px] p-3 flex flex-col items-center rounded-[30px] ' >
+    <div className='fullscreen-background' >
+      <div className=' bg-[#9BBEC8] w-[350px] p-3 rounded-[30px] border border-solid flex flex-col items-center  ' >
         <Form onFinish={finish} >
           <h2 className='mb-4 flex justify-center text-[30px] text-gray-500 '>REGISTER</h2>
           <div className='flex justify-evenly gap-2'>

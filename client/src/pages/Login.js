@@ -42,8 +42,8 @@ const Login = () => {
         naviagte("/")
     }, [])
     return (
-        <div className='bg-[#bfdbfe] w-screen h-screen  flex justify-center items-center'  >
-            <div className=' bg-[#e0f2fe] w-[350px] p-3 flex flex-col items-center rounded-[30px] ' >
+        <div className='fullscreen-background' >
+            <div className=' bg-[#9BBEC8] w-[350px] p-3 flex flex-col items-center rounded-[30px] ' >
                 <Form onFinish={finish} >
                     <h2 className='mb-4 flex justify-center text-[30px] text-gray-500 '>Login</h2>
                     <FormItem rules={rules} name='email'>

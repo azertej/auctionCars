@@ -9,6 +9,18 @@
  font-family: "Montserrat", sans-serif;
 }
 
+.fullscreen-background {
+    background-image: url('./pages/mainImage/main.avif');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    opacity: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 Input,TextArea,select{
     min-height: 45px;
     border: 1px solid black !important ;
